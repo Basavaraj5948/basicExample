@@ -2,10 +2,10 @@ package basicExample;
 
 public class Service {
 	
-	private int roleId;
+	private double roleId;
 	private String name;
 	private String address;
-	public int getRoleId() {
+	public double getRoleId() {
 		return roleId;
 	}
 	public void setRoleId(int roleId) {
