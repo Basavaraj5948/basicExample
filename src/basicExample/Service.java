@@ -2,10 +2,11 @@ package basicExample;
 
 public class Service {
 	
-	private int roleId;
+	private double roleId;
 	private String name;
 	private String address;
-	
+    private long mobNo;
+
 	public double getRoleId() {
 		return roleId;
 	}
@@ -27,7 +28,16 @@ public class Service {
 	
 	@Override
 	public String toString() {
-		return "Service [roleId=" + roleId + ", name=" + name + ", address=" + address + "]";
+		return "Service [roleId=" + roleId + ", name=" + name + ", address=" + address + ", mobNo=" + mobNo + "]";
+	}
+	public long getMobNo() {
+		return mobNo;
+	}
+	public void setMobNo(long mobNo) {
+		this.mobNo = mobNo;
+	}
+	public void setRoleId(double roleId) {
+		this.roleId = roleId;
 	}
 
 }
